@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        .popins{
+            
+            font-family: 'Poppins', sans-serif;
+
+        }
+        .garamond{
+            font-family: 'EB Garamond', serif;
+        }
+        ul li{
+            color:  #707070;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    </style>
+
 </head>
 <body>
     
+    <!-- header section start--------- -->
+
+    <header>
+
+        <!-- nav start  -->
+        <nav class="w-[90%] lg:w-3/4 mx-auto py-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#Services">Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a href="#cases">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a href="#blog">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a href="#Contact">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="flex gap-3 items-center">
+                    <img class=" w-12" src="./images/business.png" alt="">
+                    <h1 class="garamond text-4xl text-[#414040] font-extrabold">Justice</h1>
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a href="#home">Home</a></li>
+                      <li><a href="#Services">Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a href="#cases">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a href="#blog">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a href="#Contact">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-[#B68C5A]">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+    </header>
 </body>
 </html>
